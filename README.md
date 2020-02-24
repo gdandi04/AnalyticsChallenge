@@ -5,7 +5,7 @@
 
 #### To run this project, save the GauriDandi_AnalyticsChallenge.js file in the terminal using the command: node GauriDandi_AnalyticsChallenge.js 
 
-The output should be as follows:
+The output should be as follows: \n
 { Code: '424213003', Description: 'Allergy to bee venom' }
 { Code: '419474003', Description: 'Allergy to mould' }
 { Code: '91935009', Description: 'Allergy to peanuts' }
