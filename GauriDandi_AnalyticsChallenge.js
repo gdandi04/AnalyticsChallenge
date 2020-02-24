@@ -21,11 +21,8 @@ let execution = client.execute({
     success: function(error, stats){},
     error:   function(error){ console.log('e', error) }
 }).then((statement)=>{
-   /* statement.on('columns',(columns)=>{  // [{name:"cnt",type:"bigint"}, {name:"usergroup",type:"varchar"}]
-        console.log(columns);
-    });*/
     statement.on('data',(row)=>{
-        console.log(row); // {cnt:1234,usergroup:"admin"}
+        console.log(row);
     });
     statement.on('end',()=>{
         console.log('done');
